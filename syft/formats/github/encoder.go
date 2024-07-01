@@ -5,14 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mholt/archiver/v3"
-
 	"github.com/anchore/packageurl-go"
 	"github.com/anchore/syft/internal"
 	"github.com/anchore/syft/internal/log"
 	"github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/sbom"
 	"github.com/anchore/syft/syft/source"
+	"github.com/jfrog/archiver/v3"
 )
 
 // toGithubModel converts the provided SBOM to a GitHub dependency model

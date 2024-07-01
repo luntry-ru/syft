@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	"github.com/bmatcuk/doublestar/v4"
-	"github.com/mholt/archiver/v3"
+	"github.com/jfrog/archiver/v3"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/spf13/afero"
 
